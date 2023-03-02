@@ -1,0 +1,57 @@
+body{
+   
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+.photocontainer{
+    margin-top: 2rem;
+    padding: 5rem;
+}
+
+.card{
+    display: inline-block;
+    height: calc();
+    width: calc(100% / 3 - 2rem * 4);
+    background-color: rgb(20, 20, 20);
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.card > img{ 
+    width: 33.333%;
+    float: left;
+    margin-right: 2rem;
+}
+
+span, a{
+    display: block;
+    margin-bottom: 2%;
+    
+
+}
+h3{
+    padding-top: 5%;
+    margin-bottom: 2%;
+
+
+}
+a{
+    text-decoration: none;
+    color: rgb(90, 186, 255);
+}
