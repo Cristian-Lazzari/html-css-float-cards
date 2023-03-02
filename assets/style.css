@@ -17,13 +17,12 @@ h1{
 }
 
 .photocontainer{
-    margin-top: 2rem;
     padding: 5rem;
 }
 
 .card{
     display: inline-block;
-    height: calc();
+    height: width / 3;
     width: calc(100% / 3 - 2rem * 4);
     background-color: rgb(20, 20, 20);
     color: white;
@@ -31,6 +30,7 @@ h1{
     margin-right: 2rem;
     margin-bottom: 2rem;
     text-align: left;
+    box-shadow: 5px 5px 8px #888888;
 }
 
 .card > img{ 
@@ -55,3 +55,4 @@ a{
     text-decoration: none;
     color: rgb(90, 186, 255);
 }
+
